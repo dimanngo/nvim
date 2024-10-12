@@ -1,3 +1,2 @@
 require("dimanngo.core")
--- require("lazy")
--- require("plugins")
+require("dimanngo.lazy")
