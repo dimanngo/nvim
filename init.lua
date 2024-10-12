@@ -1,3 +1,3 @@
-require("core")
+require("dimanngo.core")
 -- require("lazy")
-require("plugins")
+-- require("plugins")
