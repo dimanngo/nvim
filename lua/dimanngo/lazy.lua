@@ -11,7 +11,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("dimanngo.plugins", {
+require("lazy").setup({ { import = "dimanngo.plugins" }, { import = "dimanngo.plugins.lsp" } }, {
   checker = {
     enabled = true,
     notify = false,
