@@ -16,7 +16,6 @@ return {
       todo_comments.jump_prev()
     end, { desc = "Previous todo comment" })
 
-    -- TODO; f sdf sdf sd
     todo_comments.setup()
   end,
 }

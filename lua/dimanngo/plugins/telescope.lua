@@ -1,3 +1,4 @@
+-- TODO: Pull the changes
 return {
   "nvim-telescope/telescope.nvim",
   branch = "0.1.x",
@@ -36,4 +37,3 @@ return {
     keymap.set("n", "<leader>ft", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
   end,
 }
-
